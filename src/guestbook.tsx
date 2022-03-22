@@ -12,7 +12,7 @@ const GuestbookForm = (): JSX.Element => {
     email: "",
     text: "",
   });
-  // const entries: FormState[] = [];
+
   const [entries, setEntries] = useState<FormState[]>([]);
   useEffect(() => {
     fetch("http://localhost:3001/guests")
@@ -83,7 +83,7 @@ const GuestbookForm = (): JSX.Element => {
       <ul>
         {entries.length
           ? entries.reverse().map((entry, id) => (
-              <li key={id}>
+              <li className="m-4 p-4 text-slate-900" key={id}>
                 Name: {entry.name} <br />
                 Email: {entry.email} <br />
                 Message: {entry.text}

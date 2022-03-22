@@ -24,27 +24,18 @@ const Blog = (): JSX.Element => {
   }, [blogposts]);
 
   return (
-    <div className="m-12 ">
+    <div className="m-12">
       <h1 className="text-center text-6xl text-slate-900 mb-12">Pretty Blog</h1>
       {blogposts.map(({ id, title, content }) => (
         <div key={`${id}`}>
           <h2 className="text-3xl text-slate-600 mt-6 mb-3">{title}</h2>
           <p className="text-lg text-slate-800 border-t-2 p-2">{content}</p>
+          <button className="bg-slate-600 hover:bg-slate-400 text-white">
+            more
+          </button>
         </div>
       ))}
     </div>
   );
 };
-
-const App = () => {
-  return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Blog />} />
-        <Route path="/guestbook" element={<GuestbookForm />} />
-      </Routes>
-    </BrowserRouter>
-  );
-};
-
-ReactDOM.render(<App />, document.getElementById("root"));
+export default Blog;
