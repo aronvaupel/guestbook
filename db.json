@@ -94,6 +94,31 @@
       "email": "dan@dan.dan",
       "text": "kjsfehskjdhflskjdfhjlkfdhkjlsdandandandan",
       "id": 18
+    },
+    {
+      "name": "Aron",
+      "text": "kshfskjdfhkslajhfkjldshfklasfhdkjlas",
+      "id": 19
+    }
+  ],
+  "comments": [
+    {
+      "author": "Aron",
+      "text": "ksjehkjshdfkh",
+      "postId": "1",
+      "id": 1
+    },
+    {
+      "author": "kjsdhfjksdhf",
+      "text": "neu\n",
+      "postId": "1",
+      "id": 2
+    },
+    {
+      "author": "Jonathan",
+      "text": "neu\nIch bín ein spanische Möwe",
+      "postId": "1",
+      "id": 3
     }
   ]
 }

@@ -14,6 +14,7 @@ const GuestbookForm = (): JSX.Element => {
   });
 
   const [entries, setEntries] = useState<FormState[]>([]);
+
   useEffect(() => {
     fetch("http://localhost:3001/guests")
       .then((response) => response.json())
