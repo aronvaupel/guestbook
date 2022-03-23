@@ -119,6 +119,62 @@
       "text": "neu\nIch bín ein spanische Möwe",
       "postId": "1",
       "id": 3
+    },
+    {
+      "author": "Dean",
+      "text": "Yes okay",
+      "postId": "3",
+      "id": 4
+    },
+    {
+      "author": "Jonathan",
+      "text": "find ich auch",
+      "postId": "3",
+      "id": 5
+    },
+    {
+      "author": "",
+      "text": "",
+      "postId": "3",
+      "id": 6
+    }
+  ],
+  "replies": [
+    {
+      "author": "Aron",
+      "text": "Macht mal alleine",
+      "commentId": "1",
+      "id": 1
+    },
+    {
+      "author": "",
+      "text": "",
+      "commentId": "3",
+      "id": 2
+    },
+    {
+      "author": "Inga",
+      "text": "\nFeiern!\n",
+      "commentId": "3",
+      "id": 3
+    },
+    {
+      "author": "Ich",
+      "text": "bin ein replyreply",
+      "commentId": "3",
+      "id": 4
+    },
+    {
+      "author": "Bitte",
+      "text": "funktioniere!",
+      "commentId": "3",
+      "id": 5
+    },
+    {
+      "author": "hilfe",
+      "text": "hilfe hilfe\n",
+      "commentId": "undefined",
+      "id": 6
     }
   ]
 }
